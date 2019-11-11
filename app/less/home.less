@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import "./_colorful.less";
+
+body{
+  width: 100%;
+  height: 100%;
+  background: url("../images/recognition_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recognition{
+  width: 100%;
+  height: 100%;
+  padding-top: 2.703704rem;
+  .wrap{
+    position: relative;
+    width: 100%;
+    height: 1.481481rem;
+    margin-bottom: 1.703704rem;
+    .left,.right{
+      position: absolute;
+    }
+    .left{
+      left: .37037rem;
+    }
+    .right{
+      right: .37037rem;
+    }
+  }
+}
+.avatar{
+  width: 1.481481rem;
+  height: 1.481481rem;
+  border-radius: 50%;
+}
+
+.echarts{
+  width: 100%;
+  text-align: center;
+  .e-box{
+    display: inline-block;
+    width: calc(~"100% - 3.703704rem");
+    height: 5.555556rem;
+    transform: translateY(-50%);
+    margin-top: 0.8rem;
+  }
+}
+
+.split-line{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 .555556rem;
+  font-size: .222222rem;
+  text-align: center;
+  color: #ffffff;
+  .text{
+    white-space: nowrap;
+  }
+  .line{
+    width: calc(~"100% - 5.437037rem");
+    display: inline-block;
+    height: .018519rem;
+    background: #ffffff;
+  }
+}
+
+.result{
+  width: 100%;
+  text-align: center;
+  padding-top: .555556rem;
+  img{
+    width: 2.222222rem;
+    margin-bottom: .185185rem;
+  }
+  &.pass{
+    color: @primary-color;
+  }
+  &.failure{
+    color: @error-color;
+  }
+}

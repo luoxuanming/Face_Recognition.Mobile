@@ -1,0 +1,11 @@
+{
+  "title": "首页",
+  "qj":true,
+  "styles": [
+    "../css/animate.css",
+    "../css/home.css"
+  ],
+  "scripts":[
+    "../libs/echarts/echarts.min.js"
+  ]
+}

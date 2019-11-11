@@ -1,0 +1,36 @@
+@charset "utf-8";
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-size: .259259rem;
+}
+input {
+  padding-left: 10px;
+  outline: none;
+  font-size: .259259rem;
+  font-weight: normal;
+  color: #666666;
+}
+input::-webkit-input-placeholder {
+  color: #999999;
+}
+input:-ms-input-placeholder {
+  color: #999999;
+}
+input::placeholder {
+  color: #999999;
+}
+.f-btn {
+  border: 0.018519rem solid #D6E1E5;
+  padding: .092593rem .148148rem;
+  border-radius: .074074rem;
+}
+.f-btn.f-btn-primary {
+  background: #3196FA;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=global.css.map */
